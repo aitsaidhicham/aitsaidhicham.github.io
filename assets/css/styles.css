@@ -227,6 +227,7 @@ footer{
   color: var(--first-color);
 }
 .home__img{
+  
   position: absolute;
   right: 0;
   bottom: 0;
@@ -303,16 +304,16 @@ footer{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 85%;
 }
 .skills__css{
-  width: 85%;
+  width: 70%;
 }
 .skills__js{
   width: 65%;
 }
 .skills__ux{
-  width: 85%;
+  width: 65%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -442,7 +443,7 @@ footer{
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
     column-gap: 2rem;
   }
   .contact__form{
